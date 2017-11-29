@@ -1,0 +1,11 @@
+After tuning hypermaeters and deciding the number of optimum epocs to be trained for best result, I have decided to submit following set of hypermaraters as my solution.
+
+epocs : 286
+learning rate : 0.07
+division of samples : 0.8
+
+Enter architecture of the ArtNeural Network: 
+57,40,20,1
+Enter the detection threshold: 
+0.9
+
