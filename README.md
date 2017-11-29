@@ -74,4 +74,54 @@ Enter input values for sample 3
 ,218.32000000000002
 
 
+3. NNSolutionThree
+
+required directory path : your_path/NeuralNetworks_Solutions/NNSolutionThree/src/nnsolutionthree
+
+
+compile the Java file from command line using JavaCompiler.
+e.g javac -cp ../../dist/NNSolutionThree.jar NNSolutionThree.java
+
+
+run/execute the binary from command line using JRE.
+e.g java -cp ../../dist/NNSolutionThree.jar nnsolutionthree.NNSolutionThree
+
+
+Expected inputs and outputsfor part three are :
+
+The inputs are given in the following order: architecture (M = 1) , weights , inputs (S = 1)
+The program should give the output in the following order: architecture , weights, partial derivatives
+
+eg.
+
+java -cp ../../dist/NNSolutionThree.jar nnsolutionthree.NNSolutionThree 
+Enter architecture of the ArtNeural Network: 
+2,3,1
+2,3,1
+Enter weights of layer 1 Neuron no 0
+1.1,1.2
+Enter weights of layer 1 Neuron no 1
+2.1,2.2
+Enter weights of layer 1 Neuron no 2
+3.1,3.2
+Enter weights of layer 2 Neuron no 0
+4.1,4.2,4.3
+Enter number of samples : 
+2
+ Number of inputs 2
+Enter input values for sample 0
+1,1
+-0.4780899999999997,1.2,-1.5780899999999998
+0.48341999999999996,2.2,-1.6165800000000001
+1.4449300000000003,3.2,-1.6550699999999998
+-25.66,0.0
+-105.20599999999999,-107.772,-110.338,0.0
+Enter input values for sample 1
+2,2
+-0.4780899999999997,1.2,-1.5780899999999998
+0.48341999999999996,2.2,-1.6165800000000001
+1.3096572010262646,3.2,-1.7227063994868677
+-1.4513579199000022,0.0
+-0.0,-0.0,-4.509093299124525,0.0
+
 
