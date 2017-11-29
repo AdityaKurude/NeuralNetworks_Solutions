@@ -125,3 +125,73 @@ Enter input values for sample 1
 -0.0,-0.0,-4.509093299124525,0.0
 
 
+
+
+
+
+4. NNSolutionFour 
+
+
+required directory path : your_path/NeuralNetworks_Solutions/NNSolutionFour/src/nnsolutionfour
+
+
+compile the Java file from command line using JavaCompiler.
+e.g javac -cp ../../dist/NNSolutionFour.jar NNSolutionFour.java
+
+
+run/execute the binary from command line using JRE.
+e.g java -cp ../../dist/NNSolutionFour.jar nnsolutionfour.NNSolutionFour
+
+Expected inputs and outputs for part four are :
+
+The program receives the inputs in the following order: teaching parameters , architecture , weights , input samples
+The program should be output to the output in the following order: average square errors , architecture , weights
+
+eg. 
+
+
+java -cp ../../dist/NNSolutionFour.jar nnsolutionfour.NNSolutionFour
+Enter Teaching parameters of the ArtNeural Network: 
+2,0.015,0.5
+Enter architecture of the ArtNeural Network: 
+2,3,1
+ Created New Neural Net
+Enter weights of layer 1 Neuron no 0
+1.1,1.2
+Enter weights of layer 1 Neuron no 1
+2.1,2.2
+Enter weights of layer 1 Neuron no 2
+3.1,3.2
+Enter weights of layer 2 Neuron no 0
+4.1,4.2,4.3
+Enter number of samples : 
+4
+ Number of samples 4
+Enter values of sample number : 0
+1,1,0
+Enter values of sample number : 1
+0,0,1
+Enter values of sample number : 2
+1,0,1
+Enter values of sample number : 3
+0,1,1
+ total samples = 4 total targetVal = 4
+ training epoc number : 0
+ RMS Error = 1.0
+2,3,1,
+-2.2566699999999997,-2.15667,-3.35667
+-1.33854,-1.23854,-3.43854
+-0.42040999999999995,-0.32040999999999986,-3.52041
+ training epoc number : 1
+ RMS Error = 1.0
+2,3,1,
+-2.2566699999999997,-2.15667,-3.35667
+-1.33854,-1.23854,-3.43854
+-0.42040999999999995,-0.32040999999999986,-3.52041
+ Total errors in prediction = 2
+
+
+
+
+
+
